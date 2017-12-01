@@ -1,6 +1,6 @@
-class $FILENAME${
-public static void main(String args[]){
- System.out.println($END$);
-}
-
-}
+<template name="ct" value="class $FILENAME${&#10;public static void main(String args[]){&#10; System.out.println($END$);&#10;}&#10;&#10;}" description="Insert Class Template - Scratches" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_DECLARATION" value="true" />
+  </context>
+</template>

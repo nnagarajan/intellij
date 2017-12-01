@@ -1,0 +1,5 @@
+<template name="st" value="long time = System.currentTimeMillis();&#10;$SELECTION$&#10;System.out.println(System.currentTimeMillis()-time);" description="Surround with run time" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_STATEMENT" value="true" />
+  </context>
+</template>

@@ -1,0 +1,6 @@
+<template name="jv" value="&lt;maven.compiler.source&gt;$VERSION$&lt;/maven.compiler.source&gt;&#10;&lt;maven.compiler.target&gt;$VERSION$&lt;/maven.compiler.target&gt;" description="Java Version" toReformat="false" toShortenFQNames="true">
+  <variable name="VERSION" expression="" defaultValue="1.8" alwaysStopAt="true" />
+  <context>
+    <option name="MAVEN" value="true" />
+  </context>
+</template>
